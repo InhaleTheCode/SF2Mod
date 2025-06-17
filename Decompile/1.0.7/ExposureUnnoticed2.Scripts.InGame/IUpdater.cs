@@ -1,0 +1,33 @@
+using System;
+using System.Runtime.CompilerServices;
+using Il2CppInterop.Common.Attributes;
+using Il2CppInterop.Runtime;
+using Il2CppInterop.Runtime.InteropTypes;
+
+namespace ExposureUnnoticed2.Scripts.InGame;
+
+public class IUpdater : Il2CppObjectBase
+{
+	private static readonly IntPtr NativeMethodInfoPtr_OnUpdate_Public_Abstract_Virtual_New_Void_0;
+
+	[CallerCount(0)]
+	public unsafe virtual void OnUpdate()
+	{
+		IL2CPP.Il2CppObjectBaseToPtrNotNull(this);
+		IntPtr* param = null;
+		System.Runtime.CompilerServices.Unsafe.SkipInit(out IntPtr exc);
+		IntPtr intPtr = IL2CPP.il2cpp_runtime_invoke(IL2CPP.il2cpp_object_get_virtual_method(IL2CPP.Il2CppObjectBaseToPtr(this), NativeMethodInfoPtr_OnUpdate_Public_Abstract_Virtual_New_Void_0), IL2CPP.Il2CppObjectBaseToPtrNotNull(this), (void**)param, ref exc);
+		Il2CppException.RaiseExceptionIfNecessary(exc);
+	}
+
+	static IUpdater()
+	{
+		Il2CppClassPointerStore<IUpdater>.NativeClassPtr = IL2CPP.GetIl2CppClass("Assembly-CSharp.dll", "ExposureUnnoticed2.Scripts.InGame", "IUpdater");
+		NativeMethodInfoPtr_OnUpdate_Public_Abstract_Virtual_New_Void_0 = IL2CPP.GetIl2CppMethodByToken(Il2CppClassPointerStore<IUpdater>.NativeClassPtr, 100668849);
+	}
+
+	public IUpdater(IntPtr pointer)
+		: base(pointer)
+	{
+	}
+}

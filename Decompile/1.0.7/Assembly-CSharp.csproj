@@ -1,0 +1,82 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\core\Il2CppInterop.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="ch.sycoforge.Decal">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\ch.sycoforge.Decal.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="LeTai.TranslucentImage">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\LeTai.TranslucentImage.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>..\..\SecretFlasherManaka_v1.0.2\SecretFlasherManaka v1.0.2\BepInEx\interop\Unity.Splines.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
